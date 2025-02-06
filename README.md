@@ -10,3 +10,20 @@ On **main.py** you can set the followings params:
 - ***center_image_path***: path to the image you want to place in the middle of the card 
 - ***number_of_cards***: number of cards you want to generate
 - ***filename***: output filename
+
+## Generate card using Docker
+
+To generate the command using docker just run the code below:
+```bash
+docker-compose up app
+```
+
+## Generate card using your machine's python
+
+To generate the commands using python just run the code below:
+```bash
+pip install -r requirements.txt
+```
+```bash
+python main.py
+```
